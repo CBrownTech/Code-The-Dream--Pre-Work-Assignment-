@@ -11,19 +11,13 @@ Here is a simple weather app that shows temperature and weather conditions for a
 
 ## How to Run
 
-1. **Open in a browser**  
+   **Open in a browser**  
    Double-click `index.html` or drag it into your browser.  
    Or from the project folder run:
    ```bash
    start index.html
    ```
    (Windows) or `open index.html` (macOS).
-
-2. **Optional: local server** (if you need one, e.g. for the background image or CORS):
-   ```bash
-   npx serve .
-   ```
-   Then open the URL shown (e.g. http://localhost:3000).
 
 ## How to Use
 
