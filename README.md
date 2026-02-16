@@ -11,8 +11,8 @@ Here is a simple weather app that shows temperature and weather conditions for a
 
 ## How to Run
 
-   **Open in a browser**  
-   Double-click `index.html` or drag it into your browser.  
+   **If you downloaded the repo:** Unzip the folder, then double-click `index.html` or drag it into your browser.  
+   **If the project is already on your computer:** Double-click `index.html` or drag it into your browser.  
    Or from the project folder run:
    ```bash
    start index.html
