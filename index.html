@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Weather Here!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="welcome-title">Welcome to the Weather App</h1>
+    <p class="welcome-description">From here, you can check the weather of any city in the world! Enjoy exploring and learning aboutthe weather of your favorite cities!</p>
+    <div class="container">
+        <h2>Check Your Weather Here!</h2>
+        <div id="search-box">
+            <input type="text" id="locationInput" placeholder="Enter a city" autocomplete="off">
+            <div class="city-buttons">
+                <button type="button" id="temperatureBtn">Temperature</button>
+                <button type="button" id="conditionBtn">Condition</button>
+            </div>
+        </div>
+        <p id="errTxt" class="error-text"></p>
+        <div id="weather-details" class="weather-info">
+            <h2 id="location"></h2>
+            <img id="weather-icon" alt="" width="64" height="64">
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #2a3a4a; /* fallback: dark grey to match moody sky */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-description {
+    text-align: center;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    max-width: 560px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+}
+
+.container h2 {
+    font-size: 36px;
+    margin: 0 0 16px;
+}
+
+#search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#search-box input[type="text"] {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.city-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#search-box .city-buttons button,
+#search-box button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.error-text {
+    color: #c00;
+    min-height: 1.2em;
+    margin-top: 8px;
+}
+
+.weather-info {
+    margin-top: 20px;
+    display: none;
+}
+
+.weather-info.active {
+    display: block;
+}
+
+.weather-info #weather-icon {
+    display: block;
+    margin: 10px auto;
+}
+
+.weather-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.weather-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.weather-buttons button:hover {
+    background-color: #0069d9;
+}
+
+.weather-info #temperature,
+.weather-info #description {
+    display: none;
+    margin: 8px 0;
+}
+
+.weather-info.show-temperature #temperature {
+    display: block;
+}
+
+.weather-info.show-condition #description {
+    display: block;
+}
