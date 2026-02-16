@@ -1,6 +1,6 @@
 # Check Your Weather!
 
-A simple weather app that shows temperature and weather conditions for any city using the Open-Meteo API. Enter a city name and choose to display either the current temperature or the weather condition (e.g., partly cloudy, rain, clear sky), each with a weather icon.
+Here is a simple weather app that shows temperature and weather conditions for any city using the Open-Meteo API. Enter a city name and choose to display either the current temperature or the weather condition (e.g., partly cloudy, rain, clear sky), each with a weather icon.
 
 ## Features
 
